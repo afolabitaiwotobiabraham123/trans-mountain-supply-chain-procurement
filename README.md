@@ -1,162 +1,216 @@
-# Pipeline Supply-Chain Performance Intelligence System
+# Trans Mountain Supply Chain, Procurement & Forecasting Analytics
 
-##  Project Status
-**Project in Progress**
+**Project Status:** In Progress
 
-This project is part of my **Energy, Supply Chain & Operations Analytics Portfolio**.
+## 1. Project Overview
 
-The objective is to explore procurement performance, supplier delivery, purchasing cycle times, costs, and potential supply-chain risks.
+This project focuses on analyzing supply chain and procurement activities within a pipeline and marine terminal operating environment, using Trans Mountain as the business context.
 
-**Important:** This is an independent portfolio project and does not use confidential Trans Mountain procurement data.
+The objective is to use data analytics and forecasting techniques to understand procurement performance, supplier reliability, purchasing activities, material availability, future material demand, procurement expenditure, and delivery performance.
 
----
+The project combines historical data analysis, operational performance measurement, and predictive forecasting to support better procurement decisions and supply chain planning.
 
-##  Company Context
+This is an independent portfolio project using publicly available or appropriately simulated data. It is not an official Trans Mountain project and does not use confidential company information.
 
-**Trans Mountain** operates pipeline infrastructure connecting Canadian energy production with markets.
+## 2. Business Problem
 
-For this project, I am focusing on the procurement and supply-chain side of operational support.
+Pipeline and marine terminal operations depend on the timely procurement and delivery of materials, equipment, and services.
 
----
+Poor supplier performance, procurement delays, excessive purchasing costs, inaccurate demand planning, and material shortages can affect maintenance activities and operational continuity.
 
-##  Problem Statement
+Without proper analysis and forecasting, procurement teams may struggle to anticipate future material requirements, control purchasing expenditure, evaluate supplier reliability, and prepare for potential supply chain disruptions.
 
-Operational organizations depend on suppliers and procurement processes to provide materials and services when required.
+The business problem is:
 
-Long procurement cycles, supplier delays, cost increases, and inconsistent performance can affect operational planning.
+**How can supply chain data analytics and forecasting be used to identify procurement inefficiencies, evaluate supplier performance, predict future material requirements, and improve procurement and supply chain planning?**
 
-The analytical question is:
+## 3. Project Objectives
 
-**Can procurement data be used to identify supplier performance patterns, purchasing delays, cost trends, and supply-chain risks?**
+- Analyze procurement spending and purchasing patterns.
+- Evaluate supplier delivery performance and reliability.
+- Identify procurement delays and delivery inconsistencies.
+- Examine material availability and potential shortage risks.
+- Monitor purchase order performance.
+- Identify suppliers with recurring delivery problems.
+- Forecast future procurement expenditure.
+- Predict future demand for materials and operational supplies.
+- Estimate supplier delivery lead times.
+- Identify potential future material shortages and excess inventory risks.
+- Develop operational and procurement KPIs.
+- Use forecasting results to support procurement and materials planning.
+- Present actionable findings through an interactive Power BI dashboard.
 
----
+## 4. Scope of Analysis
 
-##  Proposed Solution
+### A. Procurement Analysis
 
-I plan to build a:
+- Purchase order volumes.
+- Procurement spending.
+- Purchasing trends.
+- Purchase order completion.
+- Procurement cost patterns.
+- Outstanding purchase orders.
 
-### **Pipeline Supply-Chain Performance Intelligence System**
+### B. Supplier Performance Analysis
 
-The system will analyse:
+- Supplier delivery performance.
+- On-time delivery rates.
+- Supplier reliability.
+- Supplier performance comparisons.
+- Supplier delivery delays.
+- Supplier lead-time variations.
 
-* Purchase orders
-* Suppliers
-* Procurement cycle times
-* Delivery performance
-* Purchasing costs
-* Material categories
-* Supplier performance
+### C. Materials and Inventory Analysis
 
----
+- Material availability.
+- Stock levels, where available.
+- Material consumption patterns.
+- Potential material shortages.
+- Excess inventory risks.
+- Procurement requirements.
 
-##  Key Analytical Questions
+### D. Delivery and Operational Performance
 
-1. Which suppliers have the longest delivery times?
-2. Which suppliers consistently meet delivery dates?
-3. Where are procurement cycle-time delays occurring?
-4. Which material categories have the highest procurement costs?
-5. How do costs change over time?
-6. Which suppliers contribute the greatest purchasing volume?
-7. Are there recurring procurement delays?
-8. Which supply-chain areas require closer monitoring?
+- Delivery lead times.
+- Delayed deliveries.
+- Outstanding purchase orders.
+- Delivery performance variations.
+- Potential procurement-related operational risks.
 
----
+### E. Forecasting and Predictive Analytics
 
-##  Technologies
+- Procurement expenditure forecasting.
+- Material demand forecasting.
+- Supplier delivery lead-time forecasting.
+- Future purchasing requirements.
+- Potential material shortage forecasting.
+- Forecast-based procurement planning.
+- Identification of future supply chain risks.
 
-* Python
-* Pandas
-* SQL
-* MySQL
-* Power BI
-* Data Quality
-* Supply Chain Analytics
-* Procurement Analytics
+## 5. Data Sources and Datasets
 
----
+The project will use publicly available datasets or appropriately simulated procurement and supply chain data.
 
-##  Planned KPIs
+Potential data sources will be identified and evaluated based on their relevance to:
 
-* Supplier On-Time Delivery %
-* Procurement Cycle Time
-* Average Lead Time
-* Purchase Order Value
-* Supplier Spend
-* Delivery Delay
-* Cost Variance
-* Purchase Order Volume
-* Supplier Performance
+- Procurement and purchasing activities.
+- Supplier performance.
+- Purchase orders.
+- Material demand and consumption.
+- Inventory and stock availability.
+- Delivery performance and lead times.
+- Historical procurement expenditure.
 
----
+The selected datasets will be documented, assessed, and prepared before analysis.
 
-##  Planned Workflow
+Where publicly available datasets do not contain sufficient information for specific procurement or forecasting questions, appropriately simulated data may be considered and clearly identified.
 
-Procurement Data
-      ↓
-Data Exploration
-      ↓
-Data Quality Assessment
-      ↓
-Data Cleaning
-      ↓
-SQL Analysis
-      ↓
-Supplier Analysis
-      ↓
-Procurement Analysis
-      ↓
-KPI Development
-      ↓
-Power BI Dashboard
-      ↓
-Supply-Chain Insights
+No Trans Mountain internal or confidential company data will be assumed to be publicly available.
 
+## 6. Tools and Technologies
 
-## 🚀 Project Roadmap
+### Programming and Data Analysis
+- Python
+- Jupyter Notebook
+- Pandas
+- Matplotlib
+- Scikit-learn
 
-*  Identify dataset
-*  Explore procurement data
-*  Assess data quality
-*  Clean data
-*  Build SQL analysis
-*  Analyse suppliers
-*  Analyse procurement lead times
-*  Analyse costs
-*  Develop supply-chain KPIs
-*  Identify performance patterns
-*  Build Power BI dashboard
-*  Document findings
+### Database and Querying
+- SQL
+- MySQL
 
----
+### Business Intelligence and Visualization
+- Microsoft Power BI
+- Power Query
+- DAX
 
-##  Skills Demonstrated
+### Analytics Areas
+- Supply Chain Analytics
+- Procurement Analytics
+- Supplier Performance Analysis
+- Inventory and Materials Planning
+- Forecasting and Predictive Analytics
+- Operations Analytics
+- Data Quality Assessment
+- Data Cleaning
+- Data Visualization
 
-### Supply Chain
+## 7. Key Performance Indicators (KPIs)
 
-* Procurement analytics
-* Supplier performance
-* Lead-time analysis
-* Cost analysis
+The project will investigate relevant procurement, supplier, inventory, delivery, and forecasting KPIs.
 
-### Data Analytics
+### Procurement KPIs
+- Total Procurement Spend
+- Purchase Order Volume
+- Average Procurement Cost
+- Outstanding Purchase Orders
+- Procurement Spend by Supplier
 
-* Exploratory analysis
-* KPI development
-* Trend analysis
-* Performance analysis
+### Supplier Performance KPIs
+- On-Time Delivery Rate
+- Supplier Delivery Performance
+- Average Supplier Lead Time
+- Delayed Purchase Orders
+- Supplier Reliability
 
-### Technical
+### Materials and Inventory KPIs
+- Material Availability
+- Material Consumption
+- Stock Levels, where available
+- Potential Material Shortage Rate
+- Excess Inventory Indicators
 
-* SQL
-* Python
-* Pandas
-* MySQL
-* Power BI
+### Forecasting KPIs
+- Forecasted Procurement Spend
+- Forecasted Material Demand
+- Forecast Accuracy
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- Predicted Supplier Lead Time
+- Forecasted Material Shortage Risk
 
----
+Final KPI definitions and calculations will depend on the actual dataset fields and available information.
 
-##  Disclaimer
+## 8. Project Workflow
 
-This is an independent educational portfolio project.
+The project will follow a structured analytics and forecasting workflow:
 
-It does not represent Trans Mountain's internal procurement systems, supplier evaluations, confidential information, or management decisions.
+1. Identify and acquire relevant procurement and supply chain datasets.
+2. Explore the datasets using Python and Jupyter Notebook.
+3. Assess data quality.
+4. Clean and prepare the datasets using Python and Pandas.
+5. Store prepared datasets in MySQL.
+6. Perform procurement and supplier performance analysis using SQL.
+7. Calculate relevant supply chain and procurement KPIs.
+8. Develop forecasting models using Python.
+9. Evaluate forecasting performance and accuracy.
+10. Develop an interactive Power BI dashboard.
+11. Document findings, forecasts, business insights, and recommendations.
+
+## 9. Expected Deliverables
+
+- Documented data acquisition process.
+- Exploratory data analysis.
+- Data quality assessment report.
+- Cleaned and prepared datasets.
+- SQL procurement and supplier performance analysis.
+- Supply chain and procurement KPI calculations.
+- Material demand forecasting models.
+- Procurement expenditure forecasting models.
+- Supplier lead-time forecasting, where supported by the data.
+- Forecast evaluation and accuracy assessment.
+- Interactive Power BI dashboard.
+- Business insights and recommendations.
+
+## 10. Business Value
+
+The project aims to demonstrate how supply chain data analytics and forecasting can support better procurement decisions, improve supplier performance monitoring, identify delivery inefficiencies, anticipate material requirements, and strengthen procurement planning.
+
+By combining historical analysis with predictive forecasting, the project will demonstrate how data can help procurement and operations teams move beyond reviewing past performance towards making better-informed future decisions.
+
+## 11. Disclaimer
+
+This is an independent educational and portfolio project developed to demonstrate supply chain, procurement, forecasting, and operations analytics skills.
+
+It is not affiliated with or endorsed by Trans Mountain. It does not use confidential company information, and any simulated data will be clearly identified.
